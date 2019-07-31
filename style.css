@@ -1,0 +1,90 @@
+body {
+  background_color: whitesmoke;
+  font-family: 'Playfair Display', serif;
+  color: #828282;
+  font-size: 16px;
+  font-weight: lighter;
+  line-height: 24px;
+}
+
+h1, h2, h3 {
+  font-family: 'Oswald', sans-serif;
+  color: #B7BA94;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+a {
+  font-family: 'Oswald', sans-serif;
+  color: #EAADA4;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #7C6354;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.container {
+  width: 600px;
+  margin: 40px auto;
+}
+
+.card {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  padding: 40px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.image_circle {
+  border-radius: 50px;
+  width: 100px;
+}
+
+.bouton_pink {
+  background-color: #EAADA4;
+  border-color: 1px solid transparent;
+  border-radius: 4px;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px, auto;
+}
+
+.bouton_pink:hover {
+  background-color: white;
+  color: #7C6354;
+  border: 1px solid #7C6354;
+}
+
+.list_inline > li {
+  display: inline-block;
+  padding: 10px;
+  font-size: 50px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
